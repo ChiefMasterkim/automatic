@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container .logo img{
+    height: 7rem;
+    width: 10rem;
+}
+.container{
+    background-color: purple;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+
+}
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    padding:  1rem;
+    background-color: rgb(248, 220, 225);
+}
+button{
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(176, 24, 176);
+    color: white;
+    border-radius: 1rem;
+}
+.section{
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    gap: 1.3rem;
+}
+.box{
+    background-color: pink;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+.box div{
+    padding: .2rem 0;
+}
+
+.emergency{
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 1.4rem;
+}
+.contain{
+    background-color: pink;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+
+}
+.contain h3{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem ;
+}
+
+
+.contain div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+
+}
+input{
+    min-width: 99%;
+    padding: .4rem;
+    border: none;
+    border-radius: .4rem;
+}
+
+.finale{
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    gap: 1.3rem;
+    background-color: pink;
+}
+.finale h3{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem ;
+}
+.prison{
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    gap: 1.3rem;
+    background-color: pink;
+}
+
+.foot{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:550px){
+    .container .logo img{
+        height: 5rem;
+        width: 8rem;
+    }
+    .container .header{
+        display: block;
+    }
+    button{
+        padding: 1rem 2rem;
+        border: none;
+        background-color: rgb(176, 24, 176);
+        color: white;
+        border-radius: 1rem;
+        min-width: 99%;
+    }
+}
